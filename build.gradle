@@ -54,6 +54,8 @@ plugins {
   id 'elasticsearch.run-ccs'
   id 'elasticsearch.release-tools'
   id 'elasticsearch.versions'
+  id "org.sonarqube" version "3.0"
+
 }
 
 /**
